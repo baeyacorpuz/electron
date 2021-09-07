@@ -8,6 +8,12 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1200,
     height: 700,
+    useContentSize: true,
+    minimizable: true,
+    maximizable: true,
+    resizable: false,
+    autoHideMenuBar: true,
+    title: "Software",
     webPreferences: {
       nodeIntegration: true,
     },
