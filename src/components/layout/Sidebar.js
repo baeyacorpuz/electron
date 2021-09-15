@@ -11,7 +11,7 @@ const Sidebar = ({ open, handleDrawerToggle }) => {
           open={open}
           onClose={handleDrawerToggle}
         >
-
+          
         </Drawer>
       </Hidden>
     </div>

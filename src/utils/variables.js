@@ -1,1 +1,1 @@
-export const TOKEN = true
+export const TOKEN = localStorage.getItem("token")

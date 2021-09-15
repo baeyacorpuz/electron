@@ -6,10 +6,10 @@ import CommonRoute from "./CommonRoute";
 import ProtectedRoute from "./ProtectedRoute";
 
 const MainRoute = () => {
-  const [isVerified, setIsVerified] = useState(false)
+  // const [isVerified, setIsVerified] = useState(false)
   return (
     <Switch>
-      <Route exact path="/" render={() => <Redirect to={"/"} />}></Route>
+      <Route exact path="/" render={() => <Redirect to={"/login"} />}></Route>
 
       
       <CommonRoute path="/login" component={Home} />
